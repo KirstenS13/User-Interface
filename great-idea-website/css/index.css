@@ -66,14 +66,14 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 section, header, footer {
-	border: 1px solid purple;
+	/*border: 1px solid purple;*/
 	width: 90%;
 	margin: 4%;
 }
 
-nav, img, a, p, h1, h2, address, div {
+/*nav, img, a, p, h1, h2, address, div {
 	border: 1px solid purple;
-}
+}*/
 
 .logo {
 	margin-left: 2.5%;
@@ -97,16 +97,14 @@ nav a {
 
 .first-section img {
 	display: inline-block;
-	margin: 2%;
-	padding: 3%;
-	width: 40%;
+	margin: 4%;
+	width: 35%;
 }
 
 .first-section div {
 	display: inline-block;
 	margin: 2%;
-	width: 40%;
-	padding: 3%;
+	width: 45%;
 	text-align: center;
 }
 
@@ -117,7 +115,7 @@ nav a {
 }
 
 h1 {
-	font-size: 60px;
+	font-size: 80px;
 }
 
 h2 {
@@ -131,15 +129,21 @@ div {
 .p-above-img {
 	width: 45%;
 	margin: 2%;
+	line-height: 1.5rem;
 }
 
 .p-below-img {
 	width: 29%;
 	margin: 2%;
+	line-height: 1.5rem;
 }
 
 .middle-img {
 	width: 95%;
+	margin: 2%;
+}
+
+footer h2, address {
 	margin: 2%;
 }
 
