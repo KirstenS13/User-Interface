@@ -75,17 +75,27 @@ nav, img, a, p, h1, h2, address, div {
 	border: 1px solid purple;
 }
 
-nav {
-	display: inline-block;
-	margin: 1%;
+.logo {
+	margin-left: 2.5%;
 }
 
-.logo, nav {
+nav {
 	display: inline-block;
+	width: 80%;
+	padding: 2%;
+}
+
+a {
+	text-decoration: none;
+}
+
+nav a {
+	width: 30%;
+	margin: 5%;
+	color: darkgrey;
 }
 
 .first-section img {
-	box-sizing: border-box;
 	display: inline-block;
 	margin: 2%;
 	padding: 3%;
@@ -93,7 +103,6 @@ nav {
 }
 
 .first-section div {
-	box-sizing: border-box;
 	display: inline-block;
 	margin: 2%;
 	width: 40%;
@@ -101,8 +110,18 @@ nav {
 	text-align: center;
 }
 
+.first-section div a {
+	border: 1px solid black;
+	padding: 1%;
+	color: black;
+}
+
 h1 {
 	font-size: 60px;
+}
+
+h2 {
+	font-size: 18px;
 }
 
 div {
@@ -126,4 +145,5 @@ div {
 
 footer p {
 	text-align: center;
+	padding: 2%;
 }
