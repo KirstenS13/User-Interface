@@ -64,3 +64,24 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+section, header, footer {
+	border: 1px solid purple;
+}
+
+.first-section img {
+	display: inline-block;
+}
+
+.logo, nav {
+	display: inline-block;
+}
+
+nav {
+	display: inline-block;
+	margin: 1%;
+}
+
+div {
+	display: inline-block;
+}
