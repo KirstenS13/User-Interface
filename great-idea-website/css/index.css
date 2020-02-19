@@ -132,12 +132,14 @@ div {
 .p-above-img {
 	width: 45%;
 	margin: 2%;
+	padding-top: 2%;
 	line-height: 1.5rem;
 }
 
 .p-below-img {
 	width: 29%;
 	margin: 2%;
+	padding-bottom: 2%;
 	line-height: 1.5rem;
 }
 
